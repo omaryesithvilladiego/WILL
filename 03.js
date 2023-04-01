@@ -14,8 +14,12 @@ function buscarAmigo(amigos, nombre) {
   //  buscarAmigo(amigos, 'toni') debe devolver { nombre: 'toni', edad: 33 };
 
   // Tu código aca:
+
+  var amigoSelected = amigos.filter(element => element.nombre === nombre)
+  return amigoSelected[0]
   
 }
+
 
 // No modifiques nada debajo de esta linea //
 

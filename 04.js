@@ -14,7 +14,18 @@ function numeroSimetrico(num) {
 
   // Tu código:
 
+  var numtoString = num.toString()
+  var dividido = numtoString.split('')
+
+  if(dividido.reverse().join('') == numtoString) {
+    return true
+  } else {
+    return false
+  }
+
 }
+
+
 
 // No modifiques nada debajo de esta linea //
 

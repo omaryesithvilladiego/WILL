@@ -12,7 +12,15 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  let nuevoArray = array.filter((element) => {
+    return typeof element === "number"
+  } )
+
+  return nuevoArray
+
 }
+console.log(soloNumeros([1,2,4,5,6,4,6,"hello"]))
+
 
 // No modifiques nada debajo de esta linea //
 
